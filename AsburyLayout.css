@@ -1,0 +1,103 @@
+/*
+  LAYOUT FOR ASBURY'S GENEALOGY SECTION ON THE WEB SITE
+*/
+
+body{
+      background-color: darkslategray;
+}
+
+/* HEADING STYLES */
+nav {
+  background-color: black;
+  line-height: 200%;
+  display: block;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+
+}
+
+nav a:hover{
+  color: rgb(251, 23, 24);
+
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+h1 {
+  background-color: rgb(251, 23, 24);
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(251, 23, 24);
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+ text-align: center;
+}
+
+h3 {
+      background-color: rgb(251, 23, 24);
+      color: black;
+      font-weight: bolder;
+      text-align: center;
+      font-size: 12px;
+}
+
+p{
+  font-style: normal;
+  text-indent: 50px;
+}
+
+a {
+  color: black;
+
+}
+
+a:link {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+}
+
+a:hover {
+      color: rgb(251, 23, 24);
+}
+
+img {
+      float: left;
+      margin: 0 10px 10px 0
+}
+
+img.right {
+  border: double thick black;
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+
+footer{
+      margin: 0.5% 27% 0 0;
+      border-top: solid thick rgb(251, 23, 24);
+      padding: 0.5%;
+      background-color: line;
+      align-items: center;
+      font-size: 10px;
+      font-weight: bold;
+}
+
+pHeader {
+      color: black;
+      font-weight: bold;
+      text-align: left;
+      font-size: 16px;
+}

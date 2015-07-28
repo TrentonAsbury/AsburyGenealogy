@@ -1,0 +1,50 @@
+/*
+  LAYOUT FOR ASBURY'S GENEALOGY SECTION ON THE WEB SITE
+*/
+
+/* HEADING STYLES */
+nav {
+  background-color: black;
+  line-height: 200%;
+  display: block;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: rgb(255, 25, 0);
+
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+
+h1 {
+  font-size: 3em;
+  background-color: red;
+  font-family: arial;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(178, 52, 38);;
+}
+
+p{
+  font-style: oblique;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(62, 255, 153);;
+}

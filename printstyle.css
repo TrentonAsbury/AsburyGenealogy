@@ -1,0 +1,39 @@
+/*
+      PRINT STYLES
+      AUTHOR: TRENTON ASBURY
+      DATE: 7-26-15
+*/
+
+/* HIDE ELEMENTS */
+
+nav, header {
+      display: none;
+}
+
+@page{
+      size: 8.5in 11in;
+      margin: 0.5in;
+}
+
+/* FORMATS PAGE FOR PRINTING */
+
+body {
+      color: black;
+      background-color: white;
+      background-image: none;
+      font-size: 12pt;
+      font-family: "Times New Roman", Times, serif;
+      line-height: 120%;
+}
+
+/* SETS LINKS TO DEFAULT COLORS */
+
+a {
+      text-decoration: underline;
+}
+
+/* REMOVE IMAGES FROM PRINTOUT */
+
+img {
+      display: none;
+}
